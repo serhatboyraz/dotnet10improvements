@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="SseDemo.UnitTests/SseDemo.UnitTests.csproj" Id="6abda442-b4c7-4e4c-b9d9-364de9eb231a" />
+  <Project Path="SseDemo/SseDemo.csproj" />
+</Solution>
