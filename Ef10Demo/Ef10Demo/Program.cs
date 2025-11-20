@@ -1,0 +1,91 @@
+﻿using Ef10Demo.Data;
+using Ef10Demo.Services;
+
+namespace Ef10Demo
+{
+    internal class Program
+    {
+        static async Task Main(string[] args)
+        {
+            Console.WriteLine("=== EF Core 10 JSON Column Demo ===\n");
+
+            using var context = new BookContext();
+            var bookService = new BookService(context);
+
+           // await CreateDb(context);
+
+
+            var allBooks = await bookService.GetAllBooksAsync();
+            foreach (var book in allBooks)
+            {
+                Console.WriteLine($"  [{book.Id}] {book.Title} ({book.PublishedYear})");
+                Console.WriteLine($"      Yazar: {book.Author.Name} ({book.Author.Country})");
+                Console.WriteLine($"      Email: {book.Author.Email}");
+            }
+            Console.WriteLine();
+
+            Console.WriteLine("id=2 olan kitap:");
+            var book2 = await bookService.GetBookByIdAsync(2);
+            if (book2 != null)
+            {
+                Console.WriteLine($"  {book2.Title} - {book2.Author.Name}");
+            }
+            Console.WriteLine();
+
+
+
+
+            Console.WriteLine("json sorgu:");
+            var russianBooks = await bookService.SearchBooksByAuthorCountryAsync("Russia");
+            foreach (var book in russianBooks)
+            {
+                Console.WriteLine($"  {book.Title} - {book.Author.Name}");
+            }
+            Console.WriteLine();
+        }
+
+        static async Task CreateDb(BookContext context)
+        {
+            var bookService = new BookService(context);
+
+            // 1. Database'i oluştur
+            await bookService.InitializeDatabaseAsync();
+            Console.WriteLine();
+
+            // 2. Örnek kitaplar ekle
+            Console.WriteLine("📚 Kitaplar ekleniyor...");
+            await bookService.AddBookAsync(
+                "1984",
+                1949,
+                "George Orwell",
+                "george@example.com",
+                "United Kingdom"
+            );
+
+            await bookService.AddBookAsync(
+                "Suç ve Ceza",
+                1866,
+                "Fyodor Dostoyevsky",
+                "fyodor@example.com",
+                "Russia"
+            );
+
+            await bookService.AddBookAsync(
+                "Satranç",
+                1960,
+                "Stefan Zweig",
+                "stefan@example.com",
+                "Austria"
+            );
+
+            await bookService.AddBookAsync(
+                "Anna Karenina",
+                1877,
+                "Lev Tolstoy",
+                "lev@example.com",
+                "Russia"
+            );
+            Console.WriteLine();
+        }
+    }
+}

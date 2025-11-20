@@ -1,0 +1,26 @@
+using Microsoft.EntityFrameworkCore;
+using Ef10Demo.Models;
+
+namespace Ef10Demo.Data;
+
+public class BookContext : DbContext
+{
+    public DbSet<Book> Books { get; set; }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=backstage;Username=postgres;Password=secret");
+    }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.Entity<Book>(entity =>
+        {
+            entity.HasKey(e => e.Id);
+            entity.Property(e => e.Title).IsRequired().HasMaxLength(200);
+            
+            // EF Core 10 JSON column mapping
+            entity.OwnsOne(e => e.Author).ToJson();
+        });
+    }
+}

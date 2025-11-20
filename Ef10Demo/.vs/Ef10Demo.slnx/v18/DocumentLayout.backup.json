@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\stbyr\\source\\repos\\dotnet10improvements\\Ef10Demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7436A650-4C46-EE68-8ACD-AE41B5305D58}|Ef10Demo\\Ef10Demo.csproj|c:\\users\\stbyr\\source\\repos\\dotnet10improvements\\ef10demo\\ef10demo\\data\\bookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7436A650-4C46-EE68-8ACD-AE41B5305D58}|Ef10Demo\\Ef10Demo.csproj|solutionrelative:ef10demo\\data\\bookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7436A650-4C46-EE68-8ACD-AE41B5305D58}|Ef10Demo\\Ef10Demo.csproj|c:\\users\\stbyr\\source\\repos\\dotnet10improvements\\ef10demo\\ef10demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7436A650-4C46-EE68-8ACD-AE41B5305D58}|Ef10Demo\\Ef10Demo.csproj|solutionrelative:ef10demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7436A650-4C46-EE68-8ACD-AE41B5305D58}|Ef10Demo\\Ef10Demo.csproj|c:\\users\\stbyr\\source\\repos\\dotnet10improvements\\ef10demo\\ef10demo\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7436A650-4C46-EE68-8ACD-AE41B5305D58}|Ef10Demo\\Ef10Demo.csproj|solutionrelative:ef10demo\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7436A650-4C46-EE68-8ACD-AE41B5305D58}|Ef10Demo\\Ef10Demo.csproj|c:\\users\\stbyr\\source\\repos\\dotnet10improvements\\ef10demo\\ef10demo\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7436A650-4C46-EE68-8ACD-AE41B5305D58}|Ef10Demo\\Ef10Demo.csproj|solutionrelative:ef10demo\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7436A650-4C46-EE68-8ACD-AE41B5305D58}|Ef10Demo\\Ef10Demo.csproj|c:\\users\\stbyr\\source\\repos\\dotnet10improvements\\ef10demo\\ef10demo\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7436A650-4C46-EE68-8ACD-AE41B5305D58}|Ef10Demo\\Ef10Demo.csproj|solutionrelative:ef10demo\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookContext.cs",
+              "DocumentMoniker": "C:\\Users\\stbyr\\source\\repos\\dotnet10improvements\\Ef10Demo\\Ef10Demo\\Data\\BookContext.cs",
+              "RelativeDocumentMoniker": "Ef10Demo\\Data\\BookContext.cs",
+              "ToolTip": "C:\\Users\\stbyr\\source\\repos\\dotnet10improvements\\Ef10Demo\\Ef10Demo\\Data\\BookContext.cs",
+              "RelativeToolTip": "Ef10Demo\\Data\\BookContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T10:26:07.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\stbyr\\source\\repos\\dotnet10improvements\\Ef10Demo\\Ef10Demo\\Program.cs",
+              "RelativeDocumentMoniker": "Ef10Demo\\Program.cs",
+              "ToolTip": "C:\\Users\\stbyr\\source\\repos\\dotnet10improvements\\Ef10Demo\\Ef10Demo\\Program.cs",
+              "RelativeToolTip": "Ef10Demo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:06:25.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\stbyr\\source\\repos\\dotnet10improvements\\Ef10Demo\\Ef10Demo\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "Ef10Demo\\Services\\BookService.cs",
+              "ToolTip": "C:\\Users\\stbyr\\source\\repos\\dotnet10improvements\\Ef10Demo\\Ef10Demo\\Services\\BookService.cs",
+              "RelativeToolTip": "Ef10Demo\\Services\\BookService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwDcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:18:31.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\stbyr\\source\\repos\\dotnet10improvements\\Ef10Demo\\Ef10Demo\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Ef10Demo\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\stbyr\\source\\repos\\dotnet10improvements\\Ef10Demo\\Ef10Demo\\Models\\Book.cs",
+              "RelativeToolTip": "Ef10Demo\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:18:18.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Users\\stbyr\\source\\repos\\dotnet10improvements\\Ef10Demo\\Ef10Demo\\Models\\Author.cs",
+              "RelativeDocumentMoniker": "Ef10Demo\\Models\\Author.cs",
+              "ToolTip": "C:\\Users\\stbyr\\source\\repos\\dotnet10improvements\\Ef10Demo\\Ef10Demo\\Models\\Author.cs",
+              "RelativeToolTip": "Ef10Demo\\Models\\Author.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T08:10:31.068Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
